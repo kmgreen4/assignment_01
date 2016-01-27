@@ -66,13 +66,13 @@ class Test_Assignment_01(unittest.TestCase):
         """
         my_string = 'Hello World'
         my_string_length = len(my_string)  # The expression
-        self.assertEqual(10, my_string_length)
+        self.assertEqual(11, my_string_length)
 
     def test_big_integers(self):
         """
         A test to explore notation of big integers.
         """
-        x = 42,000
+        x = 42000
         self.assertTrue(isinstance(x, int))
 
     def test_bigger_integers(self):
